@@ -2,6 +2,6 @@ version: '3'
 
 services:
   web:
-    image: registry.gitlab.com/annasblackhat/go-autodeploy:latest
+    image: registry.gitlab.com/{GITLAB_USERNAME}/{PROJECT_NAME}:latest
     ports:
       - "5009:1319"

@@ -1,6 +1,14 @@
 # Docker-Gitlab-AutoDeploy
 CI/CD using docker and Gitlab repository
 
+
+## Update Docker Compose file
+update file **docker-compose.autodeploy.yml**
+change : registry.gitlab.com/{GITLAB_USERNAME}/{PROJECT_NAME}:latest
+GITLAB_USERNAME = change with your gitlab username
+PROJECT_NAME = change with your project name
+Example : registry.gitlab.com/annasblackhat/gitlab_ci_cd:latest
+
 ## Server Config
 On your server, please make sure you have installed docker-compose
 ```
